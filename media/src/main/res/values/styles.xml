@@ -1,0 +1,7 @@
+<resources>
+
+    <style name="MediaAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+    </style>
+
+</resources>
