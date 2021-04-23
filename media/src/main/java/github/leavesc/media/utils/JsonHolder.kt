@@ -10,7 +10,7 @@ import java.lang.reflect.Type
  * @Desc:
  * @GitHub：https://github.com/leavesC
  */
-object JsonHolder {
+internal object JsonHolder {
 
     private val gson = Gson()
 

@@ -90,7 +90,7 @@ class CuttingPhotoActivity : BaseActivity() {
 //        options.setHideBottomControls(true)//隐藏下边控制栏
 //        options.setShowCropGrid(true)  //设置是否显示裁剪网格
 //        options.setShowCropFrame(true) //设置是否显示裁剪边框(true为方形边框)
-//        options.setFreeStyleCropEnabled(true)
+        options.setFreeStyleCropEnabled(true)
 //        options.setToolbarWidgetColor(Color.parseColor("#ffffff"))//标题字的颜色以及按钮颜色
 //        options.setDimmedLayerColor(Color.parseColor("#AA000000"))//设置裁剪外颜色
 //        options.setToolbarColor(Color.parseColor("#000000")) // 设置标题栏颜色

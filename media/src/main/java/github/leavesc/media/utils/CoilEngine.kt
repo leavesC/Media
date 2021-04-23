@@ -21,6 +21,7 @@ internal class CoilEngine : ImageEngine {
         imageView: ImageView,
         uri: Uri
     ) {
+        imageView.scaleType = ImageView.ScaleType.CENTER_CROP
         imageView.load(uri) {
             placeholder(placeholder)
             size(resize, resize)
@@ -34,6 +35,7 @@ internal class CoilEngine : ImageEngine {
         imageView: ImageView,
         uri: Uri
     ) {
+        imageView.scaleType = ImageView.ScaleType.CENTER_CROP
         imageView.load(uri) {
             placeholder(placeholder)
             size(resize, resize)
@@ -47,6 +49,7 @@ internal class CoilEngine : ImageEngine {
         imageView: ImageView,
         uri: Uri
     ) {
+        imageView.scaleType = ImageView.ScaleType.CENTER_CROP
         imageView.load(uri) {
             size(resizeX, resizeY)
         }
@@ -59,6 +62,7 @@ internal class CoilEngine : ImageEngine {
         imageView: ImageView,
         uri: Uri
     ) {
+        imageView.scaleType = ImageView.ScaleType.CENTER_CROP
         imageView.load(uri) {
             size(resizeX, resizeY)
         }
